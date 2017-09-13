@@ -17,7 +17,7 @@ namespace MyWeather.Droid.Helpers
             if (adView != null)
                 return adView;
 
-            adUnitId = "ca-app-pub-2457246758474079/8474765066";
+            adUnitId = "ca-app-pub-7532700630276589/4189426333";
             adView = new AdView(Forms.Context);
             adView.AdSize = adSize;
             adView.AdUnitId = adUnitId;

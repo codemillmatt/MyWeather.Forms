@@ -12,8 +12,6 @@ namespace MyWeather.Droid.Helpers
     {
         public void MakeToast(string message)
         {
-           
-
 
         }
     }

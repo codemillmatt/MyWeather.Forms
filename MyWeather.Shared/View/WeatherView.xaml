@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyWeather.View.WeatherView"
@@ -35,7 +35,6 @@
             <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"/>
         </StackLayout>
 
-        <controls:AdControlView HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"/>
     </StackLayout>
 </ContentPage>
 
@@ -98,4 +97,6 @@
     </effects:ShadowEffect.Color>
     </Label>
 </Label>
+
+<controls:AdControlView HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Margin="-10"/>
     -->
