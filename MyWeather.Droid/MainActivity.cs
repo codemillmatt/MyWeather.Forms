@@ -16,19 +16,19 @@ namespace MyWeather.Droid
     public class MainActivity : FormsAppCompatActivity
     {
 
-		protected override void OnCreate (Bundle bundle)
-		{
-			
-		    ToolbarResource = Resource.Layout.Toolbar;
-		    TabLayoutResource = Resource.Layout.Tabbar;
+        protected override void OnCreate(Bundle bundle)
+        {
 
-		    base.OnCreate (bundle);
+            ToolbarResource = Resource.Layout.Toolbar;
+            TabLayoutResource = Resource.Layout.Tabbar;
 
-            MobileAds.Initialize(ApplicationContext, "ca-app-pub-2457246758474079~6998031863");
-		    Forms.Init(this, bundle);
-		
-		    LoadApplication(new App());
-            
+            base.OnCreate(bundle);
+
+            MobileAds.Initialize(ApplicationContext, "ca-app-pub-7532700630276589~1619103319");
+            Forms.Init(this, bundle);
+
+            LoadApplication(new App());
+
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
