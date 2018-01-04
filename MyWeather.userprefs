@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{7F106FBA-12E5-4D92-9F4C-38EAD1652E7E}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeather.Android PreferredExecutionTarget="Android.0200cef91bbab9b7" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeather.Droid/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeather.Shared/View/ForecastView.xaml">
     <Files>
       <File FileName="MyWeather.Shared/App.cs" Line="1" Column="1" />
       <File FileName="MyWeather.Shared/ViewModel/WeatherViewModel.cs" Line="1" Column="1" />
@@ -11,7 +11,10 @@
       <File FileName="MyWeather.Shared/View/WeatherView.xaml" Line="102" Column="8" />
       <File FileName="MyWeather.Shared/Effects/ShadowEffect.cs" Line="1" Column="1" />
       <File FileName="MyWeather.iOS/AppDelegate.cs" Line="19" Column="25" />
-      <File FileName="MyWeather.Droid/MainActivity.cs" Line="27" Column="67" />
+      <File FileName="MyWeather.Droid/MainActivity.cs" Line="30" Column="24" />
+      <File FileName="MyWeather.iOS/Info.plist" />
+      <File FileName="MyWeather.iOS/Resources/LaunchScreen.storyboard" />
+      <File FileName="MyWeather.Shared/View/ForecastView.xaml" Line="39" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,13 +22,14 @@
           <Node name="MyWeather" expanded="True">
             <Node name="MyWeather" expanded="True">
               <Node name="Effects" expanded="True" />
-              <Node name="View" expanded="True" />
+              <Node name="View" expanded="True">
+                <Node name="ForecastView.xaml" selected="True" />
+              </Node>
               <Node name="ViewModel" expanded="True" />
             </Node>
-            <Node name="MyWeather.Android" expanded="True">
-              <Node name="MainActivity.cs" selected="True" />
+            <Node name="MyWeather.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
             </Node>
-            <Node name="MyWeather.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -45,5 +49,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.MyWeather.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0F31DD50-1FBF-4D00-9B94-F5C60D2D04E4" />
+  <MonoDevelop.Ide.ItemProperties.MyWeather.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0F31DD50-1FBF-4D00-9B94-F5C60D2D04E4" automaticSigning="False" />
 </Properties>
